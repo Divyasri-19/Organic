@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Cedarville Cursive",cursive;
+    font-style: normal;
+}
+.navbar{
+    background-color:#dc0a2d;
+    /* color: white; */
+}
+.nav-link{
+    color: white;
+    font-size: 25px;
+}
+.bgimg{
+    background-image: url(https://img.freepik.com/free-photo/cute-flowers-crunchy-cone_23-2147766656.jpg?t=st=1712833690~exp=1712837290~hmac=5226741d9603d5b9ed9d53c07c2f65f6c4b8c0efe10eedfd1d3f66dd17fe4426&w=996);
+    width: 100vw;
+    height: 60vh;
+    background-size: cover ;
+    background-position: center;
+    margin-top: 7.8%;
+}
+.heading{
+    font-size: 60px;
+    color: #dc0a2d;
+    margin-top: 5%;
+    text-shadow: 2px 3px 1px grey;
+}
+.btns{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-size: 30px;
+}
+.btns:hover{
+    background-color: green;
+    color: white;
+}
+.caimg{
+    aspect-ratio: 3/2;
+    width: 100%;;
+}
+.card-title{
+    font-size: 20px;
+    color: #dc0a2d;
+    text-align: center;
+}
+.form-label{
+    color: #dc0a2d;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* contact */
+.bgcontact{
+ background-color: #dc0a2d;
+ width: 100vw;
+}
+.formy label{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.formy input[type=text]{
+border:none;
+box-shadow: 2px 2px 2px pink;
+border-radius: 25px;
+padding:0.8%;
+width: 90%;
+margin-bottom: 6%;
+}
+.formy textarea{
+    width: 90%;
+    border:none;
+    box-shadow: 2px 2px 2px pink;
+    border-radius: 25px;   
+}
+.formy{
+    display:flex;
+    flex-direction:column;
+}
+.cbutton{
+    background-color: white;
+    color: #dc0a2d;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+}
+.cbutton:hover{
+    background-color: #dc0a2d;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.2);
+
+}
+.icons{
+    margin:2%;
+    font-size: 40px;
+}
+.icons .fa-brands{
+    padding-left: 1%;
+}
+.fa-instagram{
+    color: #dc0a2d;
+    margin-left: -3%;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-linkedin{
+    color: #67abc7;
+}
+.fa-whatsapp{
+    color: green;
+}
